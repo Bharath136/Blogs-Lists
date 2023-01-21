@@ -1,0 +1,48 @@
+.blog-details {
+  padding: 20px;
+  margin: 100px;
+}
+@media screen and (max-width: 768px) {
+  .blog-details {
+    margin: 0;
+  }
+}
+
+.blog-details-title {
+  font-size: 28px;
+  font-family: 'Roboto';
+  color: #000;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .blog-details-title {
+    font-size: 24px;
+  }
+}
+
+.blog-details-profile {
+  display: flex;
+  align-items: center;
+}
+
+.detail-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.detail-img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.author-name {
+  font-family: 'Roboto';
+  margin-left: 20px;
+  color: #000;
+}
+
+.detail-content {
+  color: #2f4f4f;
+  font-family: 'Roboto';
+}

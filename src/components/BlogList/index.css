@@ -1,0 +1,9 @@
+.blogs-list {
+  list-style-type: none;
+  padding: 100px;
+}
+@media screen and (max-width: 768px) {
+  .blogs-list {
+    padding: 10px;
+  }
+}
